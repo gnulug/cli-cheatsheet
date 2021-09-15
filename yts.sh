@@ -7,8 +7,8 @@ printf "Number: "
 read k
 IND=$((k-1))
 if [[ $IND -ge 0 ]]; then
-echo ${a[$IND]}
-mpv ${a[$IND]}
+  echo ${a[$IND]}
+  mpv ${a[$IND]}
 else
-echo "Invalid number."
+  echo "Invalid number."
 fi

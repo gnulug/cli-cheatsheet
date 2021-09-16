@@ -25,23 +25,23 @@ You can combine sequences of commands together into one file to run all at once.
 * if:
 ```
 if [[ $(date +%H) -ge 11 ]]; then
-echo "it's past 11"
+  echo "it's past 11"
 else
-echo "it's not past 11"
+  echo "it's not past 11"
 fi
 ```
 
 * while:
 ```
 while true; do
-echo hello
-sleep 2
+  echo hello
+  sleep 2
 done
 ```
 
 * for:
 ```
 for i in *; do
-cp $i new_folder/$i
+  cp $i new_folder/$i
 done
 ```
